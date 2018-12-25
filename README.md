@@ -20,8 +20,8 @@ This Repository implements various Data Structures and Algorithms in C++. There 
 
 ## A4
 ### Implements a Minimum Spanning Tree to connect prime junctions of a newly estabilished township. It further implements Djikstra's Algorithm to minimize travel time taking into consideration traverse time and traffic light time. Supports following functions:
-  1. Add-junction <x><y>: Adds a junction x with traffic light time = y.<br>
-  2. add-road <i> <j> <m> <n>: Adds a road between junction i and j with build time = m and traverse time = n. <br>  
-  3. demolish-road <i> <j>: Demolishes the road between the prime point i and j. <br>
+  1. Add-junction (x)(y): Adds a junction x with traffic light time = y.<br>
+  2. add-road: Adds a road between junction i and j with build time = m and traverse time = n. <br> 
+  3. demolish-road (i) (j): Demolishes the road between the prime point i and j. <br>
   4. print-mst: Prints the roads (represented as (x y) where x < y and the road connects junctions x and y) in the minimum spanning tree of the current junction-road graph ordered such that if a road (x1 y1) is placed before (x2 y2), then either x1 < x2 or if x1 = x2 then y1 < y2. If multipleMSTs exist, then output any one of them. If there is tree spanning all vertices, just output -1.<br>
-  5. quick-travel <i> <j>: Prints the minimum time needed to reach junction j starting at i at time 0. Also, outputs the junction ids in order of your suggested visit.
+  5. quick-travel (i) (j): Prints the minimum time needed to reach junction j starting at i at time 0. Also, outputs the junction ids in order of your suggested visit.
