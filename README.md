@@ -25,3 +25,4 @@ This Repository implements various Data Structures and Algorithms in C++. There 
   3. demolish-road (i) (j): Demolishes the road between the prime point i and j. <br>
   4. print-mst: Prints the roads (represented as (x y) where x < y and the road connects junctions x and y) in the minimum spanning tree of the current junction-road graph ordered such that if a road (x1 y1) is placed before (x2 y2), then either x1 < x2 or if x1 = x2 then y1 < y2. If multipleMSTs exist, then output any one of them. If there is tree spanning all vertices, just output -1.<br>
   5. quick-travel (i) (j): Prints the minimum time needed to reach junction j starting at i at time 0. Also, outputs the junction ids in order of your suggested visit.
+## Please refer to .pdf for the complete problem statement
